@@ -316,7 +316,7 @@ lMap.addControl(Img2Sidebar);
 lMap.on('click', function () {Img2Sidebar.hide();})
 const walk2GeoJSONLayer = L.layerGroup();
 async function loadwalkData() {
-      const response = await fetch("TPwalkdata.geojson");
+      const response = await fetch("./TPwalkdata.geojson");
       const data = await response.json();
       return data;
 };
@@ -366,7 +366,7 @@ lMap.addControl(Img3Sidebar);
 lMap.on('click', function () {Img3Sidebar.hide();})
 const walk3GeoJSONLayer = L.layerGroup();
 async function loadwalkData() {
-      const response = await fetch("TPwalkdata.geojson");
+      const response = await fetch("./TPwalkdata.geojson");
       const data = await response.json();
       return data;
 };
@@ -417,7 +417,7 @@ lMap.addControl(Img4Sidebar);
 lMap.on('click', function () {Img4Sidebar.hide();})
 const walk4GeoJSONLayer = L.layerGroup();
 async function loadwalkData() {
-      const response = await fetch("TPwalkdata.geojson");
+      const response = await fetch("./TPwalkdata.geojson");
       const data = await response.json();
       return data;
 };
