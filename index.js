@@ -265,7 +265,7 @@ lMap.addControl(Img1Sidebar);
 lMap.on('click', function () {Img1Sidebar.hide();})
 const walk1GeoJSONLayer = L.layerGroup();
 async function loadwalkData() {
-      const response = await fetch("TPwalkdata.geojson");
+      const response = await fetch("./TPwalkdata.geojson");
       const data = await response.json();
       return data;
 };
